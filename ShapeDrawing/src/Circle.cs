@@ -65,7 +65,7 @@ namespace MyGame
         public float Y
         {
             get
-            {
+           klnklfngkldfngkldl lsdfngdfnvjkdbiudfbuidbgidbfvibfvibdfuibisfbvsdfinoini {
                 return _y;
             }
             set
