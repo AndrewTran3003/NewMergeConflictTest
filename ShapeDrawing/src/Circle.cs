@@ -55,4 +55,5 @@ namespace MyGame
             return SwinGame.PointInCircle(pt, X, Y, _radius);
         }
     }
+	Do something else here
 }
