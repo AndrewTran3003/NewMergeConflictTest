@@ -18,9 +18,11 @@ namespace MyGame
         public Circle(Color color, int radius)
         {
             Color = color;
+
             _radius = radius;
-        }
-flkdsaflksnflknflkfndfnalsnfdlknflkdsnflknfalknlknflkdsa
+		}
+            _radius = radius
+	
         public int Radius
         {
             get
