@@ -20,7 +20,7 @@ namespace MyGame
             Color = color;
             _radius = radius;
         }
-ghvjh,vjhvjhdvbjhzbxvjhzjhvbczjhbvzvjhbzxcjhvbzxjh
+ghvjh,vjhvjhdvbjhzbxvjhzjhvbczjhbvzvjhbzxcjhvbzxjhjkbjkbjkjkbjjkjkkjkj
         public int Radius
         {
             get
