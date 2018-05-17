@@ -6,7 +6,7 @@ namespace MyGame
     public class GameMain
     {
         private enum ShapeKind
-        {
+        {pjiovoij ndonio fionvonfasjfiosdjfiosfjioasjfiodfjaosfosijio
             Rectangle,
             Circle,
             Linel;dA;DJDakj lkdjlkjdajnjclkncuiojdkjoiejoisjfoijdsfoijdsfojsaflkjlnclkjskfjslkjflksjflksajf;sal
