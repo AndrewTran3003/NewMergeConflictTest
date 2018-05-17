@@ -26,6 +26,8 @@ namespace MyGame
         public int Radius
         {
             get
+			//Do something here
+			Do something there
             {
                 return _radius;
             }
