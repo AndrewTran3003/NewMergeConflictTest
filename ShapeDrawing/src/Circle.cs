@@ -7,54 +7,77 @@ using SwinGameSDK;
 
 namespace MyGame
 {
-    class Circle : Shape
+    public abstract class Shape
     {
-        private int _radius;
+        private Color _color;
+        private float _x, _y;
 
-        public Circle() : this(Color.Blue, 50)
+        private Boolean _selected;
+        public Shape() : this(Color.Yellow)
         {
 
         }
-        public Circle(Color color, int radius)
+        public Shape(Color color)
         {
-            Color = color;
+            _x = 0;
+            _y = 0;
+        }
 
-            _radius = radius;
-		}
-            _radius = radius
-	
-        public int Radius
+        public Boolean Selected
         {
             get
-			//Do something here
-			Do something there
             {
-                return _radius;
+                return _selected;
             }
             set
             {
-                _radius = value;
+                _selected = value;
             }
         }
 
-
-        public override void Draw()
+        public Color Color
         {
-            if (Selected)
+            get
             {
-                DrawOutline();
+                return _color;
             }
-            SwinGame.FillCircle(Color, X, Y, _radius);
+            set
+            {
+                _color = value;
+            }
         }
 
-        public override void DrawOutline()
+
+        public float X
         {
-            SwinGame.DrawCircle(Color.Black, X, Y, _radius + 1);
+            get
+
+            {
+                return _x;
+            }
+            set
+            {
+                _x = value;
+            }
         }
 
-        public override bool IsAt(Point2D pt)
+
+        public float Y
         {
-            return SwinGame.PointInCircle(pt, X, Y, _radius);
+            get
+            {
+                return _y;
+            }
+            set
+            {
+                _y = value;
+            }
         }
+
+        public abstract void Draw();
+        public abstract Boolean IsAt(Point2D pt);
+        public abstract void DrawOutline();
+
+
     }
 }
