@@ -7,7 +7,7 @@ using SwinGameSDK;
 adsflknklsflknkfnaslfnlasdnfndsaflndsacn
 dsnffknlkndsafnfnsanflnsafndfnfndsnfdlsanfs
 namespace MyGame
-{
+{xjknbkjxnbSASACSkjbSAbcbcKJCBkjBCbscSA
     class Line : Shape
     {
         private float _endX, _endY;
