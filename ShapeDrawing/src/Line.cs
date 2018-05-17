@@ -61,6 +61,11 @@ namespace MyGame
         public override bool IsAt(Point2D pt)
         {
             return SwinGame.PointOnLine(pt, X, Y, EndX, EndY);
-        }
+        
+		
+		
+		
+		
+		dklfnksdnvklnklndklvnsd;lfmSDLFsl
     }
 }
