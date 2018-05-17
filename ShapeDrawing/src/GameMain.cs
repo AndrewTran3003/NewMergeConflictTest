@@ -9,7 +9,7 @@ namespace MyGame
         {
             Rectangle,
             Circle,
-            Line
+            Linel;dA;DJDakj lkdjlkjdajnjclkncuiojdkjoiejoisjfoijdsfoijdsfojsaflkjlnclkjskfjslkjflksjflksajf;sal
         }
         public static void Main()
         {
